@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="conteudo-header">
+            <div class="canto-direito">
+                <a href="login.html" class="botoes login">Login</a>
+                <a href="cadastro.html" class="botoes register">Registrar</a>
+        </div>
+        <div class="mensagem-central">
+            Todos Juntos <strong>Contra</strong> a <strong>Dengue</strong>
+        </div>
+        <div class="canto-esquerdo">
+            <a href="denuncia.html" class="botoes denuncia">Denúncia</a>
+        </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html"><span class="material-icons">home</span>Inicio</a></li>
+        </ul>
+    </nav>
+
+    <div class="fundo">
+        <div class="conteudo">
+        <h2>Formulário de Denúncia</h2>
+
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="grupo">
+                <label for="endereco">Endereço</label>
+                <input type="text" id="endereco" name="endereco" placeholder="Digite o endereço" required>
+            </div>
+
+            <div class="grupo">
+                <label for="descricao">Descrição</label>
+                <textarea id="descricao" name="descricao" placeholder="Descreva o local e a situação" rows="4" required style="width: 100%; padding: 0.75rem; border: 1px solid #ccc; border-radius: 5px; font-size: 1rem;"></textarea>
+            </div>
+
+            <div class="grupo">
+                <label for="arquivo">Foto (opcional)</label>
+                <input type="file" id="arquivo" name="arquivo">
+            </div>
+
+            <button type="submit" class="btn-form btn-form-primary">Enviar Denúncia</button>
+        </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Feito por Vitor, Guilherme F, Luiz Gabriel, Giovane Piva, Geovani Pereira</p>
+    </footer>
+</body>
+</html>

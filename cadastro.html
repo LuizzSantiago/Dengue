@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="conteudo-header">
+            <div class="canto-direito">
+                <a href="login.html" class="botoes login">Login</a>
+                <a href="cadastro.html" class="botoes register">Registrar</a>
+        </div>
+        <div class="mensagem-central">
+            Todos Juntos <strong>Contra</strong> a <strong>Dengue</strong>
+        </div>
+        <div class="canto-esquerdo">
+            <a href="denuncia.html" class="botoes denuncia">Denúncia</a>
+        </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html"><span class="material-icons">home</span>Inicio</a></li>
+        </ul>
+    </nav>
+    <div class="conteudo">
+        <h2>Cadastro</h2>
+        <form action="#" method="post">
+            <!-- Documento -->
+            <div class="grupo">
+                <label for="documento">Documento</label>
+                <input type="text" name="documento" maxlength="11" placeholder="Digite seu CPF" required>
+            </div>
+    
+            <!-- Nome -->
+            <div class="grupo">
+                <label for="nome">Primeiro Nome</label>
+                <input type="text" name="nome" placeholder="Digite seu primeiro nome" required>
+            </div>
+    
+            <div class="grupo">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" placeholder="Digite seu sobrenome" required>
+            </div>
+    
+            <!-- Endereço -->
+            <div class="grupo">
+                <label for="endereco">Endereço</label>
+                <input type="text"  name="endereco" placeholder="Digite seu endereço" required>
+            </div>
+    
+            <div class="grupo">
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" placeholder="Digite seu CEP" required>
+            </div>
+    
+            <!-- Contato -->
+            <div class="grupo">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Digite seu email" required>
+            </div>
+    
+            <!-- Senha -->
+            <div class="grupo">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" placeholder="Crie uma senha" required>
+            </div>
+    
+            <!-- Botões -->
+            <div>
+                <button type="submit" class="btn-form btn-form-primary">Cadastrar</button>
+                <a href="login.html" class="btn-form btn-form-secondary">Já tenho uma conta</a>
+            </div>
+        </form>
+    </div>
+<footer>
+    <p>&copy; Feito por Vitor, Guilherme F, Luiz Gabriel, Giovane Piva, Geovani Pereira</p>
+</footer>
+</body>
+</html>
