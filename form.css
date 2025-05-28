@@ -16,6 +16,14 @@
     margin-bottom: 1.2rem;
 }
 
+.grupo select{
+    width: 100%; 
+    padding: 0.75rem; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 1rem;
+}
+
 .grupo label {
     display: block;
     margin-bottom: 0.5rem;
@@ -45,22 +53,22 @@
 }
 
 /* Botão primário */
-.btn-form-primary {
+.btn-form-primario {
     background-color: #007bff;
     color: #fff;
 }
 
-.btn-form-primary:hover {
+.btn-form-primario:hover {
     background-color: #0056b3;
 }
 
 /* Botão secundário */
-.btn-form-secondary {
+.btn-form-secundario {
     background-color: #e0e0e0;
     color: #333;
 }
 
-.btn-form-secondary:hover {
+.btn-form-secundario:hover {
     background-color: #cacaca;
 }
 
