@@ -166,7 +166,7 @@ footer {
 }
 
 .info-colunas .info-bloco {
-    flex: 1 1 calc(50% - 20px); /* 2 colunas com espaço */
+    flex: 1 1 calc(50% - 20px);
     box-sizing: border-box;
 }
 

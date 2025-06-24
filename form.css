@@ -52,7 +52,7 @@
     display: inline-block;
 }
 
-/* Botão primário */
+
 .btn-form-primario {
     background-color: #007bff;
     color: #fff;
@@ -62,7 +62,7 @@
     background-color: #0056b3;
 }
 
-/* Botão secundário */
+
 .btn-form-secundario {
     background-color: #e0e0e0;
     color: #333;
